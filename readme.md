@@ -27,3 +27,7 @@ This add-on allows you to set up to 10 keywords and search them using hotkeys in
 ## License
 
 This add-on is licensed under the GNU General Public License version 2.
+
+## Development
+
+This add-on was created with the assistance of generative AI tools Claude 3.7 Sonnet and Cline.
