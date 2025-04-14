@@ -1,0 +1,149 @@
+# Japanese translation for Search Keywords By Commands add-on.
+# Copyright (C) 2025 kenny7968
+# This file is distributed under the same license as the Search Keywords By Commands package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Search Keywords By Commands 1.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2025-04-15 05:16+0900\n"
+"PO-Revision-Date: 2025-04-15 05:16+0900\n"
+"Last-Translator: Cline <>\n"
+"Language-Team: Japanese <>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Only work in browse mode
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:76
+msgid "This command is only available in browse mode."
+msgstr "このコマンドはブラウズモードでのみ使用できます。"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:81
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:112
+#, python-brace-format
+msgid "Keyword {index} is not set."
+msgstr "キーワード {index} が設定されていません。"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:114
+#, python-brace-format
+msgid "Keyword {index}: {keyword}"
+msgstr "キーワード {index}: {keyword}"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:118
+msgid "Search for keyword 1"
+msgstr "キーワード1を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:125
+msgid "Search for keyword 2"
+msgstr "キーワード2を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:132
+msgid "Search for keyword 3"
+msgstr "キーワード3を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:139
+msgid "Search for keyword 4"
+msgstr "キーワード4を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:146
+msgid "Search for keyword 5"
+msgstr "キーワード5を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:153
+msgid "Search for keyword 6"
+msgstr "キーワード6を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:160
+msgid "Search for keyword 7"
+msgstr "キーワード7を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:167
+msgid "Search for keyword 8"
+msgstr "キーワード8を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:174
+msgid "Search for keyword 9"
+msgstr "キーワード9を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:181
+msgid "Search for keyword 10"
+msgstr "キーワード10を検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:189
+msgid "Announce keyword 1"
+msgstr "キーワード1を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:196
+msgid "Announce keyword 2"
+msgstr "キーワード2を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:203
+msgid "Announce keyword 3"
+msgstr "キーワード3を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:210
+msgid "Announce keyword 4"
+msgstr "キーワード4を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:217
+msgid "Announce keyword 5"
+msgstr "キーワード5を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:224
+msgid "Announce keyword 6"
+msgstr "キーワード6を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:231
+msgid "Announce keyword 7"
+msgstr "キーワード7を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:238
+msgid "Announce keyword 8"
+msgstr "キーワード8を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:245
+msgid "Announce keyword 9"
+msgstr "キーワード9を通知"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:252
+msgid "Announce keyword 10"
+msgstr "キーワード10を通知"
+
+#. Translators: Title of the settings panel
+#: addon/globalPlugins/searchKeywordsByCommands/settings.py:23
+msgid "Search Keywords by Commands"
+msgstr "Search Keywords by Commands"
+
+#. Translators: Label for keyword text field
+#: addon/globalPlugins/searchKeywordsByCommands/settings.py:36
+#, python-brace-format
+msgid "Keyword {index}:"
+msgstr "キーワード {index}:"
+
+#. Add a reset button
+#. Translators: Label for reset button
+#: addon/globalPlugins/searchKeywordsByCommands/settings.py:45
+msgid "Reset"
+msgstr "リセット"
+
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:23
+msgid "Searching keywords by corresponding commands"
+msgstr "複数のキーワードを対応するコマンドで検索"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:26
+msgid ""
+"This add-on allows you to search for multiple keywords by their "
+"corresponding commands.\n"
+"Press NVDA+Ctrl+1 to 0 to search keywords in browse mode.\n"
+"Press NVDA+Ctrl+Shift+1 to 0 to announce specified keywords."
+msgstr ""
+"このアドオンでは、対応するコマンドを使用して複数のキーワードを検索できます。\n"
+"NVDA+Ctrl+1～0を押すと、ブラウズモードでキーワードを検索します。\n"
+"NVDA+Ctrl+Shift+1～0を押すと、指定されたキーワードを通知します。"

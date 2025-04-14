@@ -10,7 +10,7 @@ import addonHandler
 import config
 from gui.settingsDialogs import SettingsPanel
 
-#addonHandler.initTranslation()
+addonHandler.initTranslation()
 
 # Constants
 MAX_KEYWORDS = 10

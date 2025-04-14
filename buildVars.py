@@ -58,7 +58,7 @@ Press NVDA+Ctrl+Shift+1 to 0 to announce specified keywords."""),
 # pythonSources = ["addon/globalPlugins/*.py"]
 # For more information on SCons Glob expressions please take a look at:
 # https://scons.org/doc/production/HTML/scons-user/apd.html
-pythonSources = []
+pythonSources = ["addon/globalPlugins/searchKeywordsByCommands/*.py"]
 
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]

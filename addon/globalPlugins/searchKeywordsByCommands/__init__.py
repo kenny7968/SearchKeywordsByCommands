@@ -20,7 +20,7 @@ import config
 from logHandler import log
 from . import settings
 
-#addonHandler.initTranslation()
+addonHandler.initTranslation()
 
 # Constants
 MAX_KEYWORDS = 10
