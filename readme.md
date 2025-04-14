@@ -1,6 +1,6 @@
-# Search Keywords by Hotkeys
+# Search Keywords by Commands
 
-This add-on allows you to set up to 10 keywords and search them using hotkeys in browse mode.
+This add-on allows you to set up to 10 keywords and search them using commands in browse mode.
 
 ## Features
 
@@ -11,7 +11,7 @@ This add-on allows you to set up to 10 keywords and search them using hotkeys in
 ## Usage
 
 1. Open NVDA settings dialog (NVDA+N, then P for Preferences, then S for Settings)
-2. Go to the "Search Keywords by Hotkeys" category
+2. Go to the "Search Keywords by Commands" category
 3. Set up to 10 keywords in the text fields
 4. Click OK to save the settings
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Search Keywords by Hotkeys add-on for NVDA
+# Search Keywords by Commands add-on for NVDA
 # Copyright (C) 2025 kenny7968
 # This file is covered by the GNU General Public License.
 
@@ -24,10 +24,10 @@ from . import settings
 
 # Constants
 MAX_KEYWORDS = 10
-ADDON_CONFIG_SECTION = "searchKeywordsByHotkeys"
+ADDON_CONFIG_SECTION = "searchKeywordsByCommands"
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-    """Global plugin for Search Keywords by Hotkeys add-on."""
+    """Global plugin for Search Keywords by Commands add-on."""
     
     def __init__(self):
         super(GlobalPlugin, self).__init__()

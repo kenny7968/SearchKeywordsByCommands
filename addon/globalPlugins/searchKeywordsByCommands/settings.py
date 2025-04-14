@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-# Search Keywords by Hotkeys add-on for NVDA
-# Copyright (C) 2025 NVDA User
+# Search Keywords by Commands add-on for NVDA
+# Copyright (C) 2025 kenny7968
 # This file is covered by the GNU General Public License.
 
 import wx
@@ -14,13 +14,13 @@ from gui.settingsDialogs import SettingsPanel
 
 # Constants
 MAX_KEYWORDS = 10
-ADDON_CONFIG_SECTION = "searchKeywordsByHotkeys"
+ADDON_CONFIG_SECTION = "searchKeywordsByCommands"
 
 class SearchKeywordsSettingsPanel(SettingsPanel):
-    """Settings panel for Search Keywords by Hotkeys add-on."""
+    """Settings panel for Search Keywords by Commands add-on."""
     
     # Translators: Title of the settings panel
-    title = _("Search Keywords by Hotkeys")
+    title = _("Search Keywords by Commands")
     
     def makeSettings(self, settingsSizer):
         """Create the settings controls."""
