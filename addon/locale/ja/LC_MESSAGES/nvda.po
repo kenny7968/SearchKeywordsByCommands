@@ -132,8 +132,8 @@ msgstr "リセット"
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
 #: buildVars.py:23
-msgid "Searching keywords by corresponding commands"
-msgstr "複数のキーワードを対応するコマンドで検索"
+msgid "Search Keywords By Commands"
+msgstr "Search Keywords By Commands"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
