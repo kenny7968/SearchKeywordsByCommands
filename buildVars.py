@@ -27,7 +27,7 @@ addon_info = {
 Press NVDA+Ctrl+1 to 0 to search keywords in browse mode.
 Press NVDA+Ctrl+Shift+1 to 0 to announce specified keywords."""),
 	# version
-	"addon_version": "1.0",
+	"addon_version": "1.01",
 	# Author(s)
 	"addon_author": "kenny7968",
 	# URL for the add-on documentation support
