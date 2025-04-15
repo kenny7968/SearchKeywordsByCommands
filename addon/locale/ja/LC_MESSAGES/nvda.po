@@ -16,107 +16,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Only work in browse mode
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:76
+#: addon/globalPlugins/searchKeywordsByCommands/search.py:24
 msgid "This command is only available in browse mode."
 msgstr "このコマンドはブラウズモードでのみ使用できます。"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:81
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:112
+#: addon/globalPlugins/searchKeywordsByCommands/search.py:29
+#: addon/globalPlugins/searchKeywordsByCommands/search.py:74
 #, python-brace-format
 msgid "Keyword {index} is not set."
 msgstr "キーワード {index} が設定されていません。"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:114
+#: addon/globalPlugins/searchKeywordsByCommands/search.py:76
 #, python-brace-format
 msgid "Keyword {index}: {keyword}"
 msgstr "キーワード {index}: {keyword}"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:133
+#: addon/globalPlugins/searchKeywordsByCommands/search.py:63
 #, python-brace-format
 msgid "Keyword {keyword} is not found"
 msgstr "キーワード {keyword} が見つかりません"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:135
+#: addon/globalPlugins/searchKeywordsByCommands/search.py:66
 msgid "An error has occurred."
 msgstr "エラーが発生しました。"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:118
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:19
 msgid "Search for keyword 1"
 msgstr "キーワード1を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:125
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:26
 msgid "Search for keyword 2"
 msgstr "キーワード2を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:132
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:33
 msgid "Search for keyword 3"
 msgstr "キーワード3を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:139
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:40
 msgid "Search for keyword 4"
 msgstr "キーワード4を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:146
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:47
 msgid "Search for keyword 5"
 msgstr "キーワード5を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:153
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:54
 msgid "Search for keyword 6"
 msgstr "キーワード6を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:160
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:61
 msgid "Search for keyword 7"
 msgstr "キーワード7を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:167
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:68
 msgid "Search for keyword 8"
 msgstr "キーワード8を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:174
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:75
 msgid "Search for keyword 9"
 msgstr "キーワード9を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:181
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:82
 msgid "Search for keyword 10"
 msgstr "キーワード10を検索"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:189
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:90
 msgid "Announce keyword 1"
 msgstr "キーワード1を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:196
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:97
 msgid "Announce keyword 2"
 msgstr "キーワード2を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:203
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:104
 msgid "Announce keyword 3"
 msgstr "キーワード3を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:210
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:111
 msgid "Announce keyword 4"
 msgstr "キーワード4を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:217
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:118
 msgid "Announce keyword 5"
 msgstr "キーワード5を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:224
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:125
 msgid "Announce keyword 6"
 msgstr "キーワード6を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:231
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:132
 msgid "Announce keyword 7"
 msgstr "キーワード7を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:238
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:139
 msgid "Announce keyword 8"
 msgstr "キーワード8を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:245
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:146
 msgid "Announce keyword 9"
 msgstr "キーワード9を通知"
 
-#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:252
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:153
 msgid "Announce keyword 10"
 msgstr "キーワード10を通知"
 
