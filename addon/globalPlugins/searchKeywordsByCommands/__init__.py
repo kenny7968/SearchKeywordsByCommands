@@ -100,10 +100,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
                 speech.speakText(foundText)
                 
             else:
-                ui.message(f"Keyword {keyword} is not found")
+                ui.message(_("Keyword {keyword} is not found").format(keyword=keyword))
         except Exception as e:
             log.error(f"Error in searchKeyword: {e}")
-            ui.message("An error has occurred.")
+            ui.message(_("An error has occurred."))
 
     def announceKeyword(self, index):
         """Announce the keyword at the specified index."""
