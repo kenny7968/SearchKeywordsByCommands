@@ -16,7 +16,7 @@ def _(arg):
 # Add-on information variables
 addon_info = {
 	# add-on Name/identifier, internal for NVDA
-	"addon_name": "Search Keywords By Commands",
+	"addon_name": "search_keywords_by_commands",
 	# Add-on summary/title, usually the user visible name of the add-on
 	# Translators: Summary/title for this add-on
 	# to be shown on installation and add-on information found in add-on store
@@ -27,7 +27,7 @@ addon_info = {
 Press NVDA+Ctrl+1 to 0 to search keywords in browse mode.
 Press NVDA+Ctrl+Shift+1 to 0 to announce specified keywords."""),
 	# version
-	"addon_version": "1.0",
+	"addon_version": "1.01",
 	# Author(s)
 	"addon_author": "kenny7968",
 	# URL for the add-on documentation support
