@@ -24,8 +24,9 @@ addon_info = {
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	"addon_description": _("""This add-on allows you to search for multiple keywords by their corresponding commands.
-Press NVDA+Ctrl+1 to 0 to search keywords in browse mode.
-Press NVDA+Ctrl+Shift+1 to 0 to announce specified keywords."""),
+Press NVDA+Ctrl+1 to 0 to search keywords forward in browse mode.
+Press NVDA+Ctrl+Shift+1 to 0 to search keywords backward in browse mode.
+Press NVDA+Alt+1 to 0 to announce specified keywords."""),
 	# version
 	"addon_version": "1.01",
 	# Author(s)

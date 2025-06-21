@@ -169,3 +169,74 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     )
     def script_announceKeyword10(self, gesture):
         search.announceKeyword(10)
+    
+    # Script functions for backward searching keywords
+    @scriptHandler.script(
+        description=_("Search backward for keyword 1"),
+        gesture="kb:NVDA+control+shift+1"
+    )
+    def script_searchBackwardKeyword1(self, gesture):
+        search.searchKeywordBackward(1)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 2"),
+        gesture="kb:NVDA+control+shift+2"
+    )
+    def script_searchBackwardKeyword2(self, gesture):
+        search.searchKeywordBackward(2)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 3"),
+        gesture="kb:NVDA+control+shift+3"
+    )
+    def script_searchBackwardKeyword3(self, gesture):
+        search.searchKeywordBackward(3)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 4"),
+        gesture="kb:NVDA+control+shift+4"
+    )
+    def script_searchBackwardKeyword4(self, gesture):
+        search.searchKeywordBackward(4)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 5"),
+        gesture="kb:NVDA+control+shift+5"
+    )
+    def script_searchBackwardKeyword5(self, gesture):
+        search.searchKeywordBackward(5)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 6"),
+        gesture="kb:NVDA+control+shift+6"
+    )
+    def script_searchBackwardKeyword6(self, gesture):
+        search.searchKeywordBackward(6)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 7"),
+        gesture="kb:NVDA+control+shift+7"
+    )
+    def script_searchBackwardKeyword7(self, gesture):
+        search.searchKeywordBackward(7)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 8"),
+        gesture="kb:NVDA+control+shift+8"
+    )
+    def script_searchBackwardKeyword8(self, gesture):
+        search.searchKeywordBackward(8)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 9"),
+        gesture="kb:NVDA+control+shift+9"
+    )
+    def script_searchBackwardKeyword9(self, gesture):
+        search.searchKeywordBackward(9)
+    
+    @scriptHandler.script(
+        description=_("Search backward for keyword 10"),
+        gesture="kb:NVDA+control+shift+0"
+    )
+    def script_searchBackwardKeyword10(self, gesture):
+        search.searchKeywordBackward(10)

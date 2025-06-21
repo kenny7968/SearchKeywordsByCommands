@@ -71,6 +71,42 @@ def searchKeyword(index):
         log.error(f"Error in searchKeyword: {e}")
         ui.message(_("An error has occurred."))
 
+def searchKeywordBackward(index):
+    """Search for the keyword at the specified index in backward direction."""
+    if not isBrowseModeActive():
+        # Only work in browse mode
+        ui.message(_("This command is only available in browse mode."))
+        return
+    
+    keyword = getKeyword(index)
+    if not keyword:
+        ui.message(_("Keyword {index} is not set.").format(index=index))
+        return
+    
+    # Get the browse mode object
+    focus = api.getFocusObject()
+    if not focus:
+        return
+    
+    treeInterceptor = focus.treeInterceptor
+    try:
+        info = treeInterceptor.makeTextInfo(textInfos.POSITION_CARET)
+        res = info.find(keyword, reverse=True)
+        if res:
+            treeInterceptor.selection = info
+            info.collapse()
+            treeInterceptor.selection = info
+            
+            info.expand(textInfos.UNIT_LINE)
+            foundText = info.text
+            speech.speakText(foundText)
+            
+        else:
+            ui.message(_("Keyword {keyword} is not found").format(keyword=keyword))
+    except Exception as e:
+        log.error(f"Error in searchKeywordBackward: {e}")
+        ui.message(_("An error has occurred."))
+
 def announceKeyword(index):
     """Announce the keyword at the specified index."""
     keyword = getKeyword(index)
