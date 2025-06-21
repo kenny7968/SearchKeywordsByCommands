@@ -58,11 +58,18 @@ def searchKeyword(index):
         res = info.find(keyword)
         if res:
             treeInterceptor.selection = info
-            info.collapse()
+            info.collapse(end=True)  # Move to end of matched string
             treeInterceptor.selection = info
             
-            info.expand(textInfos.UNIT_LINE)
-            foundText = info.text
+            # Create a copy to get the end of the line
+            lineEnd = info.copy()
+            lineEnd.expand(textInfos.UNIT_LINE)
+            lineEnd.collapse()  # Move to start of line
+            lineEnd.setEndPoint(info.copy(), "startToEnd")  # Set start to current position
+            lineEnd.expand(textInfos.UNIT_LINE)  # Expand to end of line
+            lineEnd.setEndPoint(info, "startToStart")  # Set start to matched string end
+            
+            foundText = lineEnd.text
             speech.speakText(foundText)
             
         else:
@@ -94,11 +101,18 @@ def searchKeywordBackward(index):
         res = info.find(keyword, reverse=True)
         if res:
             treeInterceptor.selection = info
-            info.collapse()
+            info.collapse(end=True)  # Move to end of matched string
             treeInterceptor.selection = info
             
-            info.expand(textInfos.UNIT_LINE)
-            foundText = info.text
+            # Create a copy to get the end of the line
+            lineEnd = info.copy()
+            lineEnd.expand(textInfos.UNIT_LINE)
+            lineEnd.collapse()  # Move to start of line
+            lineEnd.setEndPoint(info.copy(), "startToEnd")  # Set start to current position
+            lineEnd.expand(textInfos.UNIT_LINE)  # Expand to end of line
+            lineEnd.setEndPoint(info, "startToStart")  # Set start to matched string end
+            
+            foundText = lineEnd.text
             speech.speakText(foundText)
             
         else:
