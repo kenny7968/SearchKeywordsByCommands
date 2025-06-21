@@ -120,6 +120,46 @@ msgstr "キーワード9を通知"
 msgid "Announce keyword 10"
 msgstr "キーワード10を通知"
 
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:160
+msgid "Search backward for keyword 1"
+msgstr "キーワード1を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:167
+msgid "Search backward for keyword 2"
+msgstr "キーワード2を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:174
+msgid "Search backward for keyword 3"
+msgstr "キーワード3を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:181
+msgid "Search backward for keyword 4"
+msgstr "キーワード4を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:188
+msgid "Search backward for keyword 5"
+msgstr "キーワード5を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:195
+msgid "Search backward for keyword 6"
+msgstr "キーワード6を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:202
+msgid "Search backward for keyword 7"
+msgstr "キーワード7を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:209
+msgid "Search backward for keyword 8"
+msgstr "キーワード8を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:216
+msgid "Search backward for keyword 9"
+msgstr "キーワード9を逆方向検索"
+
+#: addon/globalPlugins/searchKeywordsByCommands/__init__.py:223
+msgid "Search backward for keyword 10"
+msgstr "キーワード10を逆方向検索"
+
 #. Translators: Title of the settings panel
 #: addon/globalPlugins/searchKeywordsByCommands/settings.py:23
 msgid "Search Keywords by Commands"
@@ -150,9 +190,11 @@ msgstr "Search Keywords By Commands"
 msgid ""
 "This add-on allows you to search for multiple keywords by their "
 "corresponding commands.\n"
-"Press NVDA+Ctrl+1 to 0 to search keywords in browse mode.\n"
-"Press NVDA+Ctrl+Shift+1 to 0 to announce specified keywords."
+"Press NVDA+Ctrl+1 to 0 to search keywords forward in browse mode.\n"
+"Press NVDA+Ctrl+Shift+1 to 0 to search keywords backward in browse mode.\n"
+"Press NVDA+Alt+1 to 0 to announce specified keywords."
 msgstr ""
 "このアドオンでは、対応するコマンドを使用して複数のキーワードを検索できます。\n"
-"NVDA+Ctrl+1～0を押すと、ブラウズモードでキーワードを検索します。\n"
-"NVDA+Ctrl+Shift+1～0を押すと、指定されたキーワードを通知します。"
+"NVDA+Ctrl+1～0を押すと、ブラウズモードでキーワードを前方検索します。\n"
+"NVDA+Ctrl+Shift+1～0を押すと、ブラウズモードでキーワードを逆方向検索します。\n"
+"NVDA+Alt+1～0を押すと、指定されたキーワードを通知します。"

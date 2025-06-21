@@ -58,17 +58,67 @@ def searchKeyword(index):
         res = info.find(keyword)
         if res:
             treeInterceptor.selection = info
-            info.collapse()
+            info.collapse(end=True)  # Move to end of matched string
             treeInterceptor.selection = info
             
-            info.expand(textInfos.UNIT_LINE)
-            foundText = info.text
+            # Create a copy to get the end of the line
+            lineEnd = info.copy()
+            lineEnd.expand(textInfos.UNIT_LINE)
+            lineEnd.collapse()  # Move to start of line
+            lineEnd.setEndPoint(info.copy(), "startToEnd")  # Set start to current position
+            lineEnd.expand(textInfos.UNIT_LINE)  # Expand to end of line
+            lineEnd.setEndPoint(info, "startToStart")  # Set start to matched string end
+            
+            foundText = lineEnd.text
             speech.speakText(foundText)
             
         else:
             ui.message(_("Keyword {keyword} is not found").format(keyword=keyword))
     except Exception as e:
         log.error(f"Error in searchKeyword: {e}")
+        ui.message(_("An error has occurred."))
+
+def searchKeywordBackward(index):
+    """Search for the keyword at the specified index in backward direction."""
+    if not isBrowseModeActive():
+        # Only work in browse mode
+        ui.message(_("This command is only available in browse mode."))
+        return
+    
+    keyword = getKeyword(index)
+    if not keyword:
+        ui.message(_("Keyword {index} is not set.").format(index=index))
+        return
+    
+    # Get the browse mode object
+    focus = api.getFocusObject()
+    if not focus:
+        return
+    
+    treeInterceptor = focus.treeInterceptor
+    try:
+        info = treeInterceptor.makeTextInfo(textInfos.POSITION_CARET)
+        res = info.find(keyword, reverse=True)
+        if res:
+            treeInterceptor.selection = info
+            info.collapse(end=True)  # Move to end of matched string
+            treeInterceptor.selection = info
+            
+            # Create a copy to get the end of the line
+            lineEnd = info.copy()
+            lineEnd.expand(textInfos.UNIT_LINE)
+            lineEnd.collapse()  # Move to start of line
+            lineEnd.setEndPoint(info.copy(), "startToEnd")  # Set start to current position
+            lineEnd.expand(textInfos.UNIT_LINE)  # Expand to end of line
+            lineEnd.setEndPoint(info, "startToStart")  # Set start to matched string end
+            
+            foundText = lineEnd.text
+            speech.speakText(foundText)
+            
+        else:
+            ui.message(_("Keyword {keyword} is not found").format(keyword=keyword))
+    except Exception as e:
+        log.error(f"Error in searchKeywordBackward: {e}")
         ui.message(_("An error has occurred."))
 
 def announceKeyword(index):
